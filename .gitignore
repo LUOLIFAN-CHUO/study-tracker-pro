@@ -1,0 +1,14 @@
+# 忽略前端的大山（最占用空间的东西）
+node_modules/
+dist/
+
+# 忽略后端的秘密和杂物
+*.db
+__pycache__/
+.venv/
+venv/
+.env
+
+# 忽略系统自动生成的文件
+.DS_Store
+Thumbs.db
